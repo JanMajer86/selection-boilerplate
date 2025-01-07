@@ -43,9 +43,14 @@
 
 .items-container {
 	display: flex;
-	gap: 2rem;
+	flex-direction: column;
+	gap: 0.5rem;
 }
 
+.items-row {
+	display: flex;
+	gap: 2rem;
+}
 .item {
 	width: 4rem;
 	padding: 1rem;
