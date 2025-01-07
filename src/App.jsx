@@ -11,8 +11,6 @@ function App() {
 	let isSelected = Object.keys(selectedItem).length !== 0;
 
 	const handleSelection = (id) => {
-		// const id = parseInt(e.target.id);
-		console.log(id);
 		const newItem = items.find((item) => item.id === id);
 		if (newItem.id === selectedItem?.id) {
 			setSelectedItem({});
