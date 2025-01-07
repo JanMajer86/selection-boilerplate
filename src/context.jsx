@@ -4,9 +4,6 @@ import data from "./data";
 const AppContext = createContext();
 
 export const AppProvider = ({ children }) => {
-	// const budget = 10;
-	// const [remainingBudget, setRemainingBudget] = useState(budget);
-
 	const [items, setItems] = useState(data);
 	const [selectedItems, setSelectedItems] = useState([]);
 
